@@ -4,6 +4,7 @@ import pickle
 import numpy as np 
 import pandas as pd 
 
+@st.cache
 st.set_page_config(layout="wide")
 
 st.header("Book Recommender System")
